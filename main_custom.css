@@ -2142,3 +2142,42 @@ td[style*="#fff"] {
     content: "this will be the last time changelogs will appear here, you're welcome";
     display: block;
 }
+
+:root {
+    --accent: #e15959;
+    /*Default Accent: #e15959 | rgb(225, 89, 89) ↽ RGB Values for Settings */
+    
+    --bg-color: #000;
+    /*Light Mode: #fff | Dark Mode: #353535 or #000*/
+    
+    --text-color: #353535;
+    /*Light Mode: #353535 | Dark Mode: #fff*/
+    
+    --hp-ammo: #000;
+    /*HP/Ammo Text Color*/
+    
+    --hud-mascot-opacity: 0;
+    /*0 = Invisible | 1 = Visible*/
+    
+    --weapon-icon-brightness: 2;
+    /*0 = Black | 2 = White*/
+    
+    --menu-decal: 1;
+    /*0 = Invisible | 1 = Visible*/
+}
+
+/*English Font*/
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+}
+
+/*日本語フォント*/
+
+@font-face {
+    font-family: JP;
+    src: url(https://dl.dropboxusercontent.com/s/9b7aer2osbcd388/logotypejp_mp_b_1.1.ttf?dl=0);
+}
+
+/*Make Edits Below*/
